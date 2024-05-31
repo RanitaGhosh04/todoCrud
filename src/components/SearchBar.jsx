@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import { TodoContext } from '../App';
+import { TodoContext } from '../contexts/TodoContext';
 
 const SearchBar = () => {
   const { state, dispatch } = useContext(TodoContext);

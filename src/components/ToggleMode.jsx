@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { TodoContext } from '../App';
+import { TodoContext } from '../contexts/TodoContext';
 
 const ToggleMode = () => {
   const { state, dispatch } = useContext(TodoContext);
